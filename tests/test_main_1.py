@@ -1,5 +1,5 @@
 import unittest
-import main
+import tutorial_1.main as main
 
 class TEST_MAIN(unittest.TestCase) : 
     def test_sum_func(self) : 
