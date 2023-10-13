@@ -8,4 +8,4 @@
 - Python Extension Pack
 - Coverage Gutters
 
-폴더는 진행 순서에 맞게 넘버링을 했습니다.  :)
+폴더는 진행 순서에 맞게 알파벳 순서를 맞췄습니다.  
