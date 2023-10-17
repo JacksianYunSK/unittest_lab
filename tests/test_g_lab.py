@@ -1,6 +1,6 @@
 import unittest
 
-from f_lab.vending_machine import DrinkMachine
+from g_lab.vending_machine import DrinkMachine
 
 class TestLab(unittest.TestCase):
     
