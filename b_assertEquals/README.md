@@ -21,5 +21,21 @@ self.assertEqual(1, 1)
 
 - 위 코드는 1과 1이 같은지 확인하는 코드입니다.
 
-## 이제 main.py를 테스트해봅시다. 
+## assert 함수 종류
+
+- assert 함수는 다음과 같이 많이 있습니다. 
+    - assertEqual
+    - assertNotEqual
+    - assertTrue
+    - assertFalse
+    - assertIs
+    - assertIsNot
+    - assertIsNone
+    - assertIsNotNone
+    - assertIn
+    - assertNotIn
+    - assertIsInstance
+    - assertNotIsInstance
+- 관련 사용에 대해서는 아래 링크를 참고하세요. 
+    - https://docs.python.org/3/library/unittest.html#assert-methods
 

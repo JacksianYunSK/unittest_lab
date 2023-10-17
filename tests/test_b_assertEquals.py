@@ -24,6 +24,12 @@ class Test_main(unittest.TestCase) :
         self.assertEqual(5,ret)
         
     # 만약 정수가 아닌 소수가 있는 값이 들어오는 경우에 대한 테스트도 해보겠습니다.
+
+    def test_foo_func_temp(self) :
+        ret = main.foo(10,3)
+        self.assertEqual(3.333, ret)
+    
+
     # 이 경우에는 assertAlmostEqual를 사용합니다.
     # assertAlmostEqual는 두 값이 거의 같은지를 테스트합니다.
     
