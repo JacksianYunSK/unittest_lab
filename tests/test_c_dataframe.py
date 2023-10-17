@@ -30,10 +30,10 @@ class TestAnalysisDataFrame(unittest.TestCase) :
         # self.df 안에 nan값이 있는지 확인하는 테스트 코드입니다.
         # nan값이 있을 경우, 오류를 내고, nan값이 없을 경우, 오류를 내지 않습니다.
         
-        def test_self_df_isnan(self) :
+        def test_self_df_isnull(self) :
             self.assertFalse(self.df.isnull().values.any())
         
-        def test_self_df_isnull(self) :
+        def test_self_df_isna(self) :
             self.assertFalse(self.df.isna().values.any())
             
         # fill nan null value 함수를 테스트하는 코드입니다.
